@@ -3,7 +3,7 @@
 //  MiraclePills
 //
 //  Created by Ayush Verma on 02/09/17.
-//  Copyright © 2017 CraftBox_Developers. All rights reserved.
+//  Copyright © 2017 Ayush_Verma. All rights reserved.
 //
 
 import UIKit
@@ -30,7 +30,7 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
     }
     
     @IBAction func statePickerBtnPressed(_ sender: Any) {
-            
+            statePicker.isHidden = false
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -45,5 +45,14 @@ class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSour
         return states[row]
     }
 
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        statePickerBtn.setTitle(states[row], for: UIControlState.normal)
+        statePicker.isHidden = true
+    }
+    
+
+
+    
+//end of the class brace
 }
 

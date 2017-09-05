@@ -3,7 +3,7 @@
 //  MiraclePills
 //
 //  Created by Ayush Verma on 02/09/17.
-//  Copyright © 2017 CraftBox_Developers. All rights reserved.
+//  Copyright © 2017 Ayush_Verma. All rights reserved.
 //
 
 import UIKit

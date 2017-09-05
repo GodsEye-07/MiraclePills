@@ -266,7 +266,7 @@
 				DEVELOPMENT_TEAM = 4FUFV9ADLZ;
 				INFOPLIST_FILE = MiraclePills/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.CraftBox-developers.MiraclePills";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CraftBoxDevelopers.MiraclePills;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +279,7 @@
 				DEVELOPMENT_TEAM = 4FUFV9ADLZ;
 				INFOPLIST_FILE = MiraclePills/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.CraftBox-developers.MiraclePills";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CraftBoxDevelopers.MiraclePills;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,6 +304,7 @@
 				2A73FD131F5B2E4700B09733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
