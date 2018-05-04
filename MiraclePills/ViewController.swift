@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource{
     
     
-    let states = ["Andhra Pradesh","Bihar","Calcutta","Chattisgarh","Karnataka","Tamil Nadu"]
+    let states = ["Andhra Pradesh","Bihar","Calcutta","Chattisgarh","Karnataka","Tamil Nadu","Delhi","Punjab","Gujrat","Rajasthan","Kashmir"]
 
     @IBOutlet weak var statePicker: UIPickerView!
     @IBOutlet weak var statePickerBtn: UIButton!
